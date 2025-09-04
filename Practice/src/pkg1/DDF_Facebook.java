@@ -45,7 +45,7 @@ public class DDF_Facebook
 		int r = sheet.getRows();
 		int c = sheet.getColumns();
 		Object[][] ob = new Object[r][c];
-
+		System.out.println("Welcome");
 		for (int i = 1; i < r; i++) {
 			for (int j = 0; j < c; j++) {
 				Cell cell = sheet.getCell(j, i);
